@@ -66,7 +66,9 @@ The initial MonogDB Compass after Importing Data
 
 ---
 
-### 9. **Find products which contain product color "indigo" and product price 492.00**
+### 9. **Find products which contain product color "indigo" or product price 492.00**
+
+As products with both "indigo" and 492.00 as field values are 0, EXECUTED OR - Either any of the conditions satisfy
 
 - **Image:**
   ![Query 9](query9.jpg)
@@ -75,10 +77,10 @@ The initial MonogDB Compass after Importing Data
 
 ### 10. **Delete the products where product price value is 28**
 
-- **Image:**
+- **Image - Before Deletion:**
   ![Query 10 - Before Deletion](query10.jpg)
 
-- **Image:**
+- **Image - After Deletion:**
   ![Query 10 - After Deletion](query10-2.jpg)
 
 
